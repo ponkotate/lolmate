@@ -10,7 +10,8 @@
     "lint-staged": "lint-staged",
     "prettier": "prettier --write --ignore-unknown .",
     "prettier:check": "prettier --check --ignore-unknown .",
-    "test": "pnpm lint && pnpm prettier:check"
+    "test": "pnpm lint && pnpm prettier:check",
+    "migrate": "dotenv -e .env.local npx prisma migrate dev --name init"
   },
   "git": {
     "pre-commit": "lint-staged"
@@ -19,7 +20,9 @@
     "*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
+    "@prisma/client": "^5.13.0",
     "next": "14.2.1",
+    "next-auth": "^5.0.0-beta.17",
     "react": "^18",
     "react-dom": "^18"
   },
@@ -28,6 +31,7 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.4.19",
+    "dotenv-cli": "^7.4.1",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.1.4",
     "eslint-config-prettier": "^9.1.0",
@@ -36,6 +40,7 @@
     "postcss": "^8.4.38",
     "prettier": "3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",
+    "prisma": "^5.13.0",
     "tailwindcss": "^3.4.1",
     "typescript": "5.4.3"
   }
