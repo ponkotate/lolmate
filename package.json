@@ -12,7 +12,8 @@
     "prettier:check": "prettier --check --ignore-unknown .",
     "test": "pnpm lint && pnpm prettier:check",
     "migrate": "dotenv -e .env.local npx prisma migrate dev --name init",
-    "prepare": "husky"
+    "prepare": "husky",
+    "postinstall": "prisma generate"
   },
   "git": {
     "pre-commit": "lint-staged"
