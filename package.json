@@ -1,0 +1,5 @@
+{
+  "name": "lolmate",
+  "private": true,
+  "workspaces": ["packages/*"]
+}
