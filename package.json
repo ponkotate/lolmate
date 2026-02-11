@@ -1,5 +1,8 @@
 {
   "name": "lolmate",
   "private": true,
-  "workspaces": ["packages/*"]
+  "workspaces": ["packages/*"],
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.14"
+  }
 }
