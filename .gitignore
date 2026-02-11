@@ -1,0 +1,9 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Claude Code
+.claude/settings.local.json
+
+# Jujutsu
+.jj/
