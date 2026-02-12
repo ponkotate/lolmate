@@ -86,6 +86,10 @@ feature/fix-parser-null-handling
 feature/update-readme
 ```
 
+## Pull Request
+
+- PRのタイトルと説明文は**日本語**で記述すること
+
 ### Jujutsu (jj)
 
 When using jj, apply the same naming to bookmarks:
