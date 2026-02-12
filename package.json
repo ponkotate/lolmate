@@ -1,10 +1,10 @@
 {
-	"name": "lolmate",
-	"private": true,
-	"workspaces": [
-		"packages/*"
-	],
-	"devDependencies": {
-		"@biomejs/biome": "^2.3.14"
-	}
+  "name": "lolmate",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "^2.3.14"
+  }
 }
